@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/index"
+    },
+    {
+      "source": "/es",
+      "destination": "/index-es"
+    }
+  ]
+}
