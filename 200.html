@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>White Wave Group</title>
+<meta name="description" content="White Wave Group – Business consulting & advertising for strategy, growth, and financial clarity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <div style="display:flex;align-items:center;gap:12px">
+      <img src="assets/logo.svg" alt="White Wave Group logo" aria-hidden="true">
+      <strong id="brandTitle">White Wave Group</strong>
+    </div>
+    <div>
+      <a id="navServices" href="#services">Services</a>
+      <a id="navWhy" href="#why">Why Us</a>
+      <a id="navPlatforms" href="#divisions">Platforms</a>
+      <a id="navLeadership" href="#leader">Leadership</a>
+      <a id="navStart" class="btn ctaStart" href="javascript:void(0)">Start</a>
+      <button id="langToggle" aria-label="Toggle language">ES</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container grid hero grid">
+    <div>
+      <div class="kicker" id="kicker">Consulting & Advertising</div>
+      <h1 id="heroHeadline">Business Consulting & Advertising, built for real growth.</h1>
+      <p class="lead" id="heroSub">Minority- and woman-owned firm helping organizations unlock strategy, operational clarity, and financial confidence.</p>
+      <div class="cta">
+        <a id="heroPrimary" class="btn" href="javascript:void(0)">Get a Strategy Session</a>
+        <a id="heroSecondary" class="btn secondary" href="#services">See How We Help</a>
+      </div>
+      <p class="small" id="heroMeta" style="margin-top:10px">Bilingual: English & Spanish • Dallas, TX</p>
+    </div>
+    <div class="card">
+      <span class="badge" id="quickBadge">Quick Facts</span>
+      <h2 style="margin-top:8px">What you get</h2>
+      <ul class="list" id="facts"></ul>
+      <hr class="div">
+      <p class="small" id="certs">Certifications: MBE/WBE/DBE (in progress with SBDC)</p>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <div class="container grid-2">
+    <div>
+      <h2 id="aboutTitle">About White Wave Group</h2>
+      <p id="aboutBody">...</p>
+    </div>
+    <div class="card">
+      <h3 id="engageTitle">How we engage</h3>
+      <ul class="list" id="engageList"></ul>
+      <a class="btn ctaStart" href="javascript:void(0)">Start the Funnel</a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <h2 id="servicesTitle">What We Do</h2>
+    <div id="servicesCards" class="cards"></div>
+  </div>
+</section>
+
+<section id="why" class="section">
+  <div class="container grid-2">
+    <div>
+      <h2 id="whyTitle">Why Work With Us</h2>
+      <ul id="whyList" class="list"></ul>
+    </div>
+    <div class="card">
+      <h3 id="resultsTitle">Results we aim for</h3>
+      <ul class="list" id="resultsList"></ul>
+    </div>
+  </div>
+</section>
+
+<section id="divisions" class="section">
+  <div class="container">
+    <h2 id="divisionsTitle">Our Platforms</h2>
+    <div id="divisionsCards" class="cards"></div>
+  </div>
+</section>
+
+<section id="leader" class="section">
+  <div class="container grid-2">
+    <div>
+      <h2 id="leaderTitle">Leadership</h2>
+      <h3 id="leaderName" style="margin:6px 0 2px">Lorraine Blancovitch</h3>
+      <p class="small" id="leaderRole">Founder & CEO</p>
+      <ul id="leaderBullets" class="list"></ul>
+    </div>
+    <div class="card">
+      <h3 id="leaderCtaTitle">Ready to move?</h3>
+      <p class="small" id="leaderCtaSub">We’ll build a clear path from today’s challenges to tomorrow’s results.</p>
+      <a class="btn ctaStart" href="javascript:void(0)">Start the Funnel</a>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section">
+  <div class="container grid-2">
+    <div>
+      <h2 id="processTitle">How the Funnel Works</h2>
+      <ol id="processSteps" class="list"></ol>
+    </div>
+    <div class="card">
+      <h3 id="ctaHeadline">Ready to grow with clarity?</h3>
+      <p class="small" id="ctaSub">Start the 3‑step consultation funnel. No pressure, just practical guidance.</p>
+      <a class="btn ctaStart" href="javascript:void(0)">Start the Funnel</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p id="footerCopy">© White Wave Group LLC. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Funnel Modal -->
+<div id="funnel" class="modal" aria-hidden="true">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-label="Strategy Session Funnel">
+    <div class="progress"><div id="progressFill"></div></div>
+    <div class="step active">
+      <h3 id="s1Title">Step 1 — Tell us about your business</h3>
+      <label id="labelCompany">Company Name <input id="f_company" placeholder=""></label>
+      <label id="labelWebsite">Website <input id="f_website" placeholder="https://"></label>
+      <label id="labelIndustry">Industry <input id="f_industry" placeholder=""></label>
+      <div class="actions">
+        <button class="btn secondary" id="btnCancel" onclick="closeModal()">Cancel</button>
+        <button class="btn" id="btnNext1" onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <div class="step">
+      <h3 id="s2Title">Step 2 — What are your goals?</h3>
+      <label><input type="checkbox" name="goals" value="Strategy"> Strategy</label>
+      <label><input type="checkbox" name="goals" value="Growth"> Growth</label>
+      <label><input type="checkbox" name="goals" value="Financial Planning"> Financial Planning</label>
+      <label><input type="checkbox" name="goals" value="Operational Efficiency"> Operational Efficiency</label>
+      <label><input type="checkbox" name="goals" value="Advertising"> Advertising</label>
+      <div class="actions">
+        <button class="btn secondary" id="btnBack" onclick="prevStep()">Back</button>
+        <button class="btn" id="btnNext2" onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <div class="step">
+      <h3 id="s3Title">Step 3 — How can we reach you?</h3>
+      <label id="labelName">Full Name <input id="f_name" placeholder=""></label>
+      <label id="labelEmail">Email <input id="f_email" placeholder="you@company.com" type="email"></label>
+      <label id="labelPhone">Phone <input id="f_phone" placeholder="(###) ###-####"></label>
+      <label id="labelNotes">Notes <textarea id="f_notes" rows="3" placeholder=""></textarea></label>
+      <div class="actions">
+        <button class="btn secondary" id="btnBack2" onclick="prevStep()">Back</button>
+        <button class="btn" onclick="nextStep()">Next</button>
+      </div>
+    </div>
+    <div class="step">
+      <h3 id="s4Title">Review & Send</h3>
+      <p class="small" id="reviewHint">Click “Send Request” to open your email client with a pre‑filled summary. You can also replace the mailto flow with your PipelinePro embed later.</p>
+      <div class="actions">
+        <button class="btn secondary" id="btnBack3" onclick="prevStep()">Back</button>
+        <button class="btn" id="btnSend" onclick="sendSummary()">Send Request</button>
+      </div>
+      <p class="small" id="ppHint" style="margin-top:8px">To integrate PipelinePro: replace this step with your embed code in <code>index.html</code> and set your endpoint.</p>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
