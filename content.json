@@ -1,0 +1,310 @@
+{
+  "default_lang": "en",
+  "site": {
+    "contact_email": "info@whitewavegroup.com"
+  },
+  "en": {
+    "site": {
+      "title": "White Wave Group",
+      "tagline": "Plan smarter. Grow faster."
+    },
+    "nav": {
+      "services": "Services",
+      "why": "Why Us",
+      "platforms": "Platforms",
+      "leadership": "Leadership",
+      "start": "Start",
+      "toggle": "ES"
+    },
+    "hero": {
+      "headline": "Business Consulting & Advertising, built for real growth.",
+      "subhead": "Minority- and woman-owned firm helping organizations unlock strategy, operational clarity, and financial confidence.",
+      "primary_cta": "Get a Strategy Session",
+      "secondary_cta": "See How We Help",
+      "badge": "Quick Facts",
+      "facts": [
+        "Strategy, Growth & Financial Planning",
+        "Operational Efficiency & Systems",
+        "Inventory Forecasts & Launch Logistics",
+        "Airport & Digital Advertising"
+      ],
+      "certs": "Certifications: MBE/WBE/DBE (in progress with SBDC)",
+      "kicker": "Consulting & Advertising",
+      "meta": "Bilingual: English & Spanish • Dallas, TX"
+    },
+    "about": {
+      "title": "About White Wave Group",
+      "body": "White Wave Group LLC (WWG) is a minority- and woman-owned business consulting and advertising firm based in Dallas, TX. We partner with businesses and nonprofits to bring clarity, strategy, and financial insight that fuel long-term growth. We serve clients in English and Spanish.",
+      "engage_title": "How we engage",
+      "engage": [
+        "Discovery call & needs assessment",
+        "90‑day roadmap with measurable KPIs",
+        "Execution support (onsite or remote)",
+        "Monthly reviews & optimization"
+      ]
+    },
+    "services": {
+      "title": "What We Do",
+      "items": [
+        {
+          "name": "Business Strategy",
+          "desc": "Mission & vision alignment, competitive positioning, and scalable business models."
+        },
+        {
+          "name": "Growth & Financial Planning",
+          "desc": "Market research, expansion strategies, pricing, cash flow, and projections."
+        },
+        {
+          "name": "Operational Efficiency",
+          "desc": "Process optimization, SOPs, systems integration, and team performance."
+        },
+        {
+          "name": "Inventory & Logistics",
+          "desc": "Forecasting, purchasing planning, and logistics for launches and campaigns."
+        },
+        {
+          "name": "Advertising & Brand",
+          "desc": "Airport advertising vendor services, go‑to‑market campaigns, and brand audits."
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Work With Us",
+      "points": [
+        "Minority- & woman‑owned; certifications (MBE/WBE/DBE) in progress with SBDC guidance.",
+        "Bilingual delivery (English & Spanish) across diverse markets.",
+        "Cross‑discipline expertise: finance, operations, logistics, and marketing.",
+        "Track record of measurable growth and cost reductions."
+      ],
+      "results_title": "Results we aim for",
+      "results": [
+        "Revenue growth & margin improvement",
+        "Cost reduction via lean operations",
+        "Faster decision cycles & accountability",
+        "Clear financial forecasts & dashboards"
+      ]
+    },
+    "divisions": {
+      "title": "Our Platforms",
+      "cards": [
+        {
+          "name": "ProConnectHub.com",
+          "desc": "A bilingual directory for the event production industry. Free & paid listings, lead credits, sponsor banners, and ads.",
+          "link": "#proconnecthub"
+        },
+        {
+          "name": "The Collective",
+          "desc": "A creative cooperative supporting content creators, speakers, and organizations with strategy and brand growth.",
+          "link": "#collective"
+        }
+      ]
+    },
+    "leader": {
+      "title": "Leadership",
+      "name": "Lorraine Blancovitch",
+      "role": "Founder & CEO",
+      "bullets": [
+        "Executive leadership in operations, finance, logistics, and marketing.",
+        "Proven record: +15% revenue growth and −25% cost reduction in prior roles.",
+        "Expert in inventory projections and product‑launch logistics.",
+        "Bilingual (English/Spanish)."
+      ],
+      "cta_title": "Ready to move?",
+      "cta_sub": "We’ll build a clear path from today’s challenges to tomorrow’s results."
+    },
+    "process": {
+      "title": "How the Funnel Works",
+      "steps": [
+        "Tell us about your business.",
+        "Pick your goals (Strategy, Growth, Financial Planning, Operations, Advertising).",
+        "Get a custom plan and schedule your strategy session."
+      ]
+    },
+    "cta": {
+      "headline": "Ready to grow with clarity?",
+      "sub": "Start the 3‑step consultation funnel. No pressure, just practical guidance.",
+      "button": "Start the Funnel"
+    },
+    "footer": {
+      "copyright": "© White Wave Group LLC. All rights reserved."
+    },
+    "form": {
+      "step1": "Step 1 — Tell us about your business",
+      "company": "Company Name",
+      "website": "Website",
+      "industry": "Industry",
+      "step2": "Step 2 — What are your goals?",
+      "goals": [
+        "Strategy",
+        "Growth",
+        "Financial Planning",
+        "Operational Efficiency",
+        "Advertising"
+      ],
+      "back": "Back",
+      "next": "Next",
+      "cancel": "Cancel",
+      "step3": "Step 3 — How can we reach you?",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes",
+      "review": "Review & Send",
+      "review_hint": "Click “Send Request” to open your email client with a pre‑filled summary. You can also replace the mailto flow with your PipelinePro embed later.",
+      "send": "Send Request",
+      "pp_hint": "To integrate PipelinePro: replace this step with your embed code in index.html and set your endpoint."
+    }
+  },
+  "es": {
+    "site": {
+      "title": "White Wave Group",
+      "tagline": "Planifica con inteligencia. Crece más rápido."
+    },
+    "nav": {
+      "services": "Servicios",
+      "why": "Por qué nosotros",
+      "platforms": "Plataformas",
+      "leadership": "Liderazgo",
+      "start": "Comenzar",
+      "toggle": "EN"
+    },
+    "hero": {
+      "headline": "Consultoría de Negocios y Publicidad enfocada en crecimiento real.",
+      "subhead": "Firma propiedad de minorías y de una mujer, ayudando a organizaciones a lograr estrategia, claridad operativa y confianza financiera.",
+      "primary_cta": "Agenda una Sesión",
+      "secondary_cta": "Cómo te ayudamos",
+      "badge": "Datos clave",
+      "facts": [
+        "Estrategia, Crecimiento y Planificación Financiera",
+        "Eficiencia Operativa y Sistemas",
+        "Pronósticos de Inventario y Logística de Lanzamientos",
+        "Publicidad en Aeropuertos y Digital"
+      ],
+      "certs": "Certificaciones: MBE/WBE/DBE (en proceso con SBDC)",
+      "kicker": "Consultoría y Publicidad",
+      "meta": "Bilingüe: Inglés y Español • Dallas, TX"
+    },
+    "about": {
+      "title": "Acerca de White Wave Group",
+      "body": "White Wave Group LLC (WWG) es una firma de consultoría de negocios y publicidad propiedad de minorías y de una mujer con sede en Dallas, TX. Acompañamos a empresas y organizaciones sin fines de lucro para aportar claridad, estrategia e inteligencia financiera que impulsen el crecimiento sostenible. Servimos en inglés y español.",
+      "engage_title": "Cómo trabajamos",
+      "engage": [
+        "Llamada de descubrimiento y diagnóstico",
+        "Ruta de 90 días con KPIs medibles",
+        "Soporte de ejecución (presencial o remoto)",
+        "Revisiones mensuales y optimización"
+      ]
+    },
+    "services": {
+      "title": "Qué hacemos",
+      "items": [
+        {
+          "name": "Estrategia de Negocio",
+          "desc": "Alineación de misión y visión, posicionamiento competitivo y modelos escalables."
+        },
+        {
+          "name": "Crecimiento y Planificación Financiera",
+          "desc": "Investigación de mercado, expansión, precios, flujo de efectivo y proyecciones."
+        },
+        {
+          "name": "Eficiencia Operativa",
+          "desc": "Optimización de procesos, SOPs, integración de sistemas y desempeño de equipos."
+        },
+        {
+          "name": "Inventario y Logística",
+          "desc": "Pronósticos, compras y logística para lanzamientos y campañas."
+        },
+        {
+          "name": "Publicidad y Marca",
+          "desc": "Servicios como proveedor de publicidad en aeropuertos, campañas y auditorías de marca."
+        }
+      ]
+    },
+    "why": {
+      "title": "Por qué trabajar con nosotros",
+      "points": [
+        "Propiedad de minorías y de una mujer; certificaciones (MBE/WBE/DBE) en proceso con apoyo del SBDC.",
+        "Servicio bilingüe (Inglés y Español) en mercados diversos.",
+        "Experiencia integral: finanzas, operaciones, logística y marketing.",
+        "Historial de crecimiento medible y reducción de costos."
+      ],
+      "results_title": "Resultados que buscamos",
+      "results": [
+        "Crecimiento de ingresos y margen",
+        "Reducción de costos con operaciones lean",
+        "Decisiones más ágiles y con responsabilidad",
+        "Pronósticos y tableros financieros claros"
+      ]
+    },
+    "divisions": {
+      "title": "Nuestras plataformas",
+      "cards": [
+        {
+          "name": "ProConnectHub.com",
+          "desc": "Directorio bilingüe para la industria de producción de eventos. Listados gratis y de pago, créditos de leads, banners y anuncios.",
+          "link": "#proconnecthub"
+        },
+        {
+          "name": "The Collective",
+          "desc": "Colectivo creativo que impulsa a creadores, conferencistas y organizaciones con estrategia y crecimiento de marca.",
+          "link": "#collective"
+        }
+      ]
+    },
+    "leader": {
+      "title": "Liderazgo",
+      "name": "Lorraine Blancovitch",
+      "role": "Fundadora y CEO",
+      "bullets": [
+        "Liderazgo ejecutivo en operaciones, finanzas, logística y marketing.",
+        "Resultados comprobados: +15% crecimiento y −25% reducción de costos en roles previos.",
+        "Experta en proyecciones de inventario y logística de lanzamientos.",
+        "Bilingüe (Inglés/Español)."
+      ],
+      "cta_title": "¿Listos para avanzar?",
+      "cta_sub": "Trazamos un camino claro desde los retos actuales hasta los resultados del mañana."
+    },
+    "process": {
+      "title": "Cómo funciona el embudo",
+      "steps": [
+        "Cuéntanos sobre tu negocio.",
+        "Elige tus objetivos (Estrategia, Crecimiento, Planificación Financiera, Operaciones, Publicidad).",
+        "Recibe un plan a la medida y agenda tu sesión estratégica."
+      ]
+    },
+    "cta": {
+      "headline": "¿Listos para crecer con claridad?",
+      "sub": "Inicia el embudo de 3 pasos. Sin presión; solo guía práctica.",
+      "button": "Iniciar embudo"
+    },
+    "footer": {
+      "copyright": "© White Wave Group LLC. Todos los derechos reservados."
+    },
+    "form": {
+      "step1": "Paso 1 — Cuéntanos sobre tu negocio",
+      "company": "Nombre de la empresa",
+      "website": "Sitio web",
+      "industry": "Industria",
+      "step2": "Paso 2 — ¿Cuáles son tus objetivos?",
+      "goals": [
+        "Estrategia",
+        "Crecimiento",
+        "Planificación Financiera",
+        "Eficiencia Operativa",
+        "Publicidad"
+      ],
+      "back": "Atrás",
+      "next": "Siguiente",
+      "cancel": "Cancelar",
+      "step3": "Paso 3 — ¿Cómo te contactamos?",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "notes": "Notas",
+      "review": "Revisar y Enviar",
+      "review_hint": "Haz clic en “Enviar solicitud” para abrir tu correo con un resumen pre‑llenado. Puedes reemplazar este flujo por tu embed de PipelinePro cuando quieras.",
+      "send": "Enviar solicitud",
+      "pp_hint": "Para integrar PipelinePro: reemplaza este paso con tu código de inserción en index.html y define tu endpoint."
+    }
+  }
+}
